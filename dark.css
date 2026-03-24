@@ -10,8 +10,9 @@ body{
     background-color:#030d2b;
     box-shadow: 3px 3px 3px rgb(215, 212, 212);
     width: 100%;
-    position: fixed;  
+    position:fixed;
     margin-top: -200px;  
+    
 }
 #logo img{
    width:200px ;
@@ -403,7 +404,7 @@ body{
     height: 100%;
     border-radius: 10px;
     overflow: hidden;
-    z-index:-1;
+    z-index: -1;
 }
 .main7 #content7 span:nth-child(even){
     margin-top: 90px;
@@ -412,7 +413,7 @@ body{
     text-decoration: none;
 }
 .main7 #content7 a h2{
-   color: white;
+   color: black;
    margin-left: 20px;
 }
 .main7 #content7 a p{
@@ -423,8 +424,8 @@ body{
     color: rgb(9, 61, 247);
 } 
 .main7 #content7 span:hover img{
-    transform: scale(1.1);
-    position:relative;
+    transform: scale(1.2);
+    position: relative;
 }
 .main8{
     background-color:#13214c;
@@ -483,15 +484,15 @@ body{
      width: 470px;
      height: 40vh;
      overflow: hidden;
-     position: relative;
-    z-index:-1;
+     position: relative; 
+     z-index: -1;
 }
 .main9 #port1 img{
     width: 100%;
     height: 100%;
     border-radius: 5px;
 }
-.main9  img:hover{
+.main9:hover img{
     transform: scale(1.2);
 }
 .main9 #content9 #port1 h4{
