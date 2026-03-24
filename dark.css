@@ -424,6 +424,7 @@ body{
 } 
 .main7 #content7 span:hover img{
     transform: scale(1.1);
+    position:relative;
 }
 .main8{
     background-color:#13214c;
