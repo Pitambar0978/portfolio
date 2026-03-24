@@ -403,8 +403,7 @@ body{
     height: 100%;
     border-radius: 10px;
     overflow: hidden;
-    transition: 0.4s;
-    z-index-1;
+    z-index:-1;
 }
 .main7 #content7 span:nth-child(even){
     margin-top: 90px;
